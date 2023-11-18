@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 50px;
+}
+.case{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.input-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.case > div {
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+}
+.input-form{
+    display: flex;
+    width: 100%;
+}
